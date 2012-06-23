@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MediaCenterPlugin>
+  <!-- uncomment for windows XP  compatibility (with NVidia video cards only) -->
+  <!--<initScreenArgs>nvcpl.dll,dtcfg setview 1 clone DA TA</initScreenArgs>
+  <revertScreenArgs>nvcpl.dll,dtcfg setview 1 dualview DA DB</revertScreenArgs>
+  <displaySwitchTool>rundll32.exe</displaySwitchTool>-->
+  <initScreenArgs>/external</initScreenArgs>
+  <revertScreenArgs>/extend</revertScreenArgs>
+  <displaySwitchTool>displayswitch.exe</displaySwitchTool>
+</MediaCenterPlugin>

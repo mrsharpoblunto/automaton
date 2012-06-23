@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonLib", "AutomatonLib\AutomatonLib.csproj", "{A7373FD9-1A27-4C20-A432-D99B03011FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonContract", "AutomatonContract\AutomatonContract.csproj", "{49897B75-4917-4679-97F5-54A7F22ECE72}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutomatonSetup", "AutomatonSetup\AutomatonSetup.vdproj", "{931A53FC-9FFB-4267-A1B2-ECB9C4063CD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{8BAB5C18-3DB2-4E25-94C0-6EEB7B609FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutDownPlugin", "ShutDownPlugin\ShutDownPlugin.csproj", "{7AB9FF50-C931-4B1F-9055-1F9C83D4820F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloseApplicationPlugin", "CloseApplicationPlugin\CloseApplicationPlugin.csproj", "{20F16121-445A-4544-8A02-4A02D44A2353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonAgent", "AutomatonAgent\AutomatonAgent.csproj", "{53B7AE4F-2EB5-4999-81B5-B568C4981FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonServer", "AutomatonServer\AutomatonServer.csproj", "{0B4FC7C9-3C2D-467B-AF74-703E9CB77FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonServerLib", "AutomatonServerLib\AutomatonServerLib.csproj", "{2ED2CEA9-54A7-4CAD-878F-77EBDC3331BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.WCF.DynamicClientProxy", "ACorns.WCF.DynamicClientProxy\ACorns.WCF.DynamicClientProxy.csproj", "{952C8F4B-7569-40C8-9DB7-BD6509A0E4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToggleServicePlugin", "ToggleServicePlugin\ToggleServicePlugin.csproj", "{380C0175-32C7-4B41-8E5F-38A0DCE61A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatonServerConsole", "AutomatonServerConsole\AutomatonServerConsole.csproj", "{1C539003-CE29-4F1A-A0A3-FDB4CC251352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7373FD9-1A27-4C20-A432-D99B03011FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7373FD9-1A27-4C20-A432-D99B03011FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7373FD9-1A27-4C20-A432-D99B03011FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7373FD9-1A27-4C20-A432-D99B03011FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49897B75-4917-4679-97F5-54A7F22ECE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49897B75-4917-4679-97F5-54A7F22ECE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49897B75-4917-4679-97F5-54A7F22ECE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49897B75-4917-4679-97F5-54A7F22ECE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931A53FC-9FFB-4267-A1B2-ECB9C4063CD4}.Debug|Any CPU.ActiveCfg = Debug
+		{931A53FC-9FFB-4267-A1B2-ECB9C4063CD4}.Release|Any CPU.ActiveCfg = Release
+		{931A53FC-9FFB-4267-A1B2-ECB9C4063CD4}.Release|Any CPU.Build.0 = Release
+		{7AB9FF50-C931-4B1F-9055-1F9C83D4820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB9FF50-C931-4B1F-9055-1F9C83D4820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB9FF50-C931-4B1F-9055-1F9C83D4820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB9FF50-C931-4B1F-9055-1F9C83D4820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F16121-445A-4544-8A02-4A02D44A2353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F16121-445A-4544-8A02-4A02D44A2353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F16121-445A-4544-8A02-4A02D44A2353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F16121-445A-4544-8A02-4A02D44A2353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B7AE4F-2EB5-4999-81B5-B568C4981FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B7AE4F-2EB5-4999-81B5-B568C4981FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B7AE4F-2EB5-4999-81B5-B568C4981FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B7AE4F-2EB5-4999-81B5-B568C4981FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4FC7C9-3C2D-467B-AF74-703E9CB77FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4FC7C9-3C2D-467B-AF74-703E9CB77FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4FC7C9-3C2D-467B-AF74-703E9CB77FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4FC7C9-3C2D-467B-AF74-703E9CB77FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED2CEA9-54A7-4CAD-878F-77EBDC3331BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED2CEA9-54A7-4CAD-878F-77EBDC3331BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED2CEA9-54A7-4CAD-878F-77EBDC3331BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED2CEA9-54A7-4CAD-878F-77EBDC3331BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952C8F4B-7569-40C8-9DB7-BD6509A0E4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952C8F4B-7569-40C8-9DB7-BD6509A0E4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952C8F4B-7569-40C8-9DB7-BD6509A0E4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952C8F4B-7569-40C8-9DB7-BD6509A0E4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380C0175-32C7-4B41-8E5F-38A0DCE61A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380C0175-32C7-4B41-8E5F-38A0DCE61A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380C0175-32C7-4B41-8E5F-38A0DCE61A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380C0175-32C7-4B41-8E5F-38A0DCE61A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C539003-CE29-4F1A-A0A3-FDB4CC251352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C539003-CE29-4F1A-A0A3-FDB4CC251352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C539003-CE29-4F1A-A0A3-FDB4CC251352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C539003-CE29-4F1A-A0A3-FDB4CC251352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB9FF50-C931-4B1F-9055-1F9C83D4820F} = {8BAB5C18-3DB2-4E25-94C0-6EEB7B609FBD}
+		{20F16121-445A-4544-8A02-4A02D44A2353} = {8BAB5C18-3DB2-4E25-94C0-6EEB7B609FBD}
+		{380C0175-32C7-4B41-8E5F-38A0DCE61A1B} = {8BAB5C18-3DB2-4E25-94C0-6EEB7B609FBD}
+	EndGlobalSection
+EndGlobal

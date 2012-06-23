@@ -1,0 +1,43 @@
+﻿* {
+   padding:0;
+   margin:0;
+}
+
+html 
+{
+	 font-family: Arial,Verdana, Helvetica, sans-serif ;font-size:0.9em;
+}
+
+h1
+{
+	font-size:1.5em;
+	margin:5px;
+}
+
+a
+{
+	font-size:1.2em;
+}
+
+.task
+{
+	padding:5px;
+	background:#f0f0f0;
+}
+
+.alt 
+{
+	background:#ffffff;
+}
+
+.agent
+{
+	padding:5px;
+	background:#777777;
+	color:#ffffff;
+}
+
+.agent p
+{
+	font-size:1.3em;
+}
